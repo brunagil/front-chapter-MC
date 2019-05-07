@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-shadow_1 {
+    color: #fff;
+    font-size: 110px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 100%;
+    
+    /* text-shadow ---> /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+
+    text-shadow: 0 1px 0 #e4adad, 0 2px 0 #e1a6a6, 0 3px 0 #df9e9e, 0 4px 0 #dc9696, 0 5px 0 #da8f8f, 0 6px 0 #d78787, 0 7px 0 #d58080, 0 8px 0 #d27878, 0 0 5px rgba(237, 154, 154, .05), 0 -1px 3px rgba(237,154,154,.2), 0 9px 9px rgba(237,154,154, .5),0 12px 12px rgba(237, 154, 154, .5), 0 15px 15px rgba(237,154,154, .5);
+}
+
+.text-shadow_2 {
+    color: black;
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    transform: translateY(-50%);
+    width: 100%;
+
+    /* text-shadow ---> /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+    text-shadow: 1px 1px #4A744D, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D,25px 25px #4A744D, 26px 26px 6px #06520C;
+  
+}
+
+.text-shadow_3 {
+    color: aquamarine;
+    font-size: 111px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    transform: rotate(-10deg);
+    width: 100%;
+
+
+    /* text-shadow ---> /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+    text-shadow: 5px -3px 3px black;
+}
+
+
+
+
