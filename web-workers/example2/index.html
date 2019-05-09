@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exemplo de Worker - cálculos</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <p>O maior número primo descoberto até agora é: <output id="resposta"></output></p>
+
+  <!-- Script principal-->
+  <script>
+   var worker = new Worker('worker.js');
+   worker.onmessage = function (event) {
+     document.getElementById('resposta').textContent = event.data;
+   };
+  </script>
+
+ </body>
+</html>
